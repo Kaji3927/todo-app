@@ -1,0 +1,35 @@
+.form {
+  width: 100%;
+  border-radius: 1.333vw;
+  overflow: hidden;
+  margin-bottom: 4.267vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  & label {
+    width: 5.333vw;
+    height: 5.333vw;
+    border-radius: 50%;
+    border: 1px solid #e3e4f1;
+    position: absolute;
+    left: 5.333vw;
+    top: 23%;
+  }
+
+  & input {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 3.6vw;
+    padding-left: 13.877vw;
+    font-family: inherit;
+    outline: none;
+    color: #393a4b;
+    caret-color: #3a7cfd;
+
+    &::placeholder {
+      font-size: 3.2vw;
+    }
+  }
+}
