@@ -1,0 +1,28 @@
+.todos {
+  background-color: #fff;
+  border-radius: 1.333vw;
+
+  & .list {
+    list-style: none;
+  }
+
+  & .todo {
+    border-bottom: 1px solid #e3e4f1;
+    padding: 4.267vw 5.333vw;
+    display: flex;
+    gap: 3.2vw;
+    align-items: center;
+
+    & .circle {
+      width: 5.333vw;
+      height: 5.333vw;
+      border-radius: 50%;
+      border: 1px solid #e3e4f1;
+    }
+
+    & .text {
+      font-size: 3.2vw;
+      color: #494c6b;
+    }
+  }
+}
